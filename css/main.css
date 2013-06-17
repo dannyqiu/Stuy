@@ -1,0 +1,11 @@
+.wall hr {
+    margin: 5px 0;
+}
+
+.wall {
+    word-break: break-all;
+}
+
+.game font {
+    line-height: 1.2;
+}

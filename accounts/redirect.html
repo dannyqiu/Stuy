@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Landing Page...</title>
+        <meta http-equiv="refresh" content="0; url=../home/"> 
+        <meta name"description" content="Learn more about Stuyvesant High School! Everything from facts about the school, about the teachers, student reviews are all compiled in one place!">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../js/jquery-1.10.0.min.js"><\/script>')</script>
+        <script src="../js/bootstrap.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans|Finger+Paint' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="navbar navbar-fixed-top" style="font-family:Open Sans;">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="brand" href=".."><i class="icon-home" style="vertical-align:0%;"></i> Stuy</a>
+                        <form class="navbar-search pull-left" method="POST" action="../search.py">
+                            <div class="input-append">
+                                <input type="text" class="span6" name="search" placeholder="Search...">
+                                <button type="submit" class="btn" name="submit" value="search"><i class="icon-search"></i></button>
+                            </div>
+                        </form>
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right">
+                            <li><a href="../game/">Game</a></li>
+                            <li class="divider-vertical"></li>
+                            <li class="active"><a href=".">Login / Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <br>
+            <div class="well well-large">
+                If you are not redirected automatically, <a href="../home/">Click here</a>
+            </div>
+        </div>
+    </body>
+</html>
